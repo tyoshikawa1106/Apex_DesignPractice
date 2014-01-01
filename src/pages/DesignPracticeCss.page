@@ -1,0 +1,64 @@
+<apex:page >
+    <style type="text/css">
+        #page {
+            width: 980px;
+            margin: 0 auto;
+            background-color: #ADB367;
+        }
+        .articleDetailHead {
+            border: 1px solid #CCCCCC;
+            text-align:center;
+            vertical-align: center;
+            background-color: #E2F200;
+            padding: 10px;
+            margin-bottom: 30px;
+        }
+        
+        .articleDetailBody {
+            border: 1px solid #CCCCCC;
+            background-color: #E2F200;
+            padding: 10px;
+        }
+        
+        .articleDetailFoot {
+            border: 1px solid #CCCCCC;
+            text-align:center;
+            vertical-align: center;
+            background-color: #E2F200;
+            padding: 10px;
+            margin-top: 30px;
+        }
+        
+        #pageBodyMain {
+            border: 1px solid #C0D136;
+            background-color: #C0D136;
+            width: 720px;
+            float: left;
+        }
+        
+        #pageBodySub {
+            border: 1px solid #C0D136;
+            background-color: #C0D136;
+            width: 220px;
+            float: right;
+        }
+        
+        #pageBody:after {
+            content: "";
+            clear: both;
+            display: block;
+        }
+        
+        .divBox {
+            border: 1px solid #D1E08A;
+            border-radius: 10px;
+            background-color: #D1E08A;
+            margin: 10px;
+            padding: 5px;
+        }
+        
+        .bodyTitle {
+            text-align: center;
+        }
+    </style>
+</apex:page>
