@@ -1,4 +1,4 @@
-Visualforce_DesignPractice
+Apex_DesignPractice
 ==========================
 
 CSSによるデザインの練習  
